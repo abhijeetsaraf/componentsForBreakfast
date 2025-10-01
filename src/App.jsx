@@ -17,6 +17,15 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      {/* Demo Headings for GitHub Pages */}
+      <div style={{ margin: '2rem 0' }}>
+        <h1>Heading 1: Welcome to ComponentsForBreakfast</h1>
+        <h2>Heading 2: Explore React & Vite</h2>
+        <h3>Heading 3: This is a demo for GitHub Pages</h3>
+        <h4>Heading 4: Easily deploy your site</h4>
+        <h5>Heading 5: Enjoy building UI components!</h5>
+        <p>This page is deployed using GitHub Pages. You should now see these headings live!</p>
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
